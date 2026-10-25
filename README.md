@@ -1,4 +1,4 @@
-# ir-usb-hid-transreceiver
+# ir-usb-hid-transceiver
 
 A DIY USB IR transceiver that works like a generic keyboard — receive signals from any infrared remote control and send IR commands to any device. Built around an ATmega32U4 microcontroller and the Adafruit IR Transceiver breakout (product #5990).
 
