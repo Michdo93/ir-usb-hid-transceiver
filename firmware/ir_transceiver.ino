@@ -330,7 +330,7 @@ void loop() {
   if (!IrReceiver.decode()) return;
 
   uint32_t code  = IrReceiver.decodedIRData.decodedRawData;
-  uint8_t  proto = IrReceiver.decodedIRData.protocol;
+  decode_type_t proto = IrReceiver.decodedIRData.protocol;
   uint16_t addr  = IrReceiver.decodedIRData.address;
   bool     rep   = IrReceiver.decodedIRData.flags & IRDATA_FLAGS_IS_REPEAT;
 
